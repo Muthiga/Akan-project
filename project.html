@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAN NAME GENERATOR</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/project.js"></script>
+</head>
+<body>
+<div class="input">   
+<div class="form">
+    <h2>Welcome to the AKAN NAME GENERATOR.</h2>
+    <p> Welcome to our Akan Name Generator.<br> Its a simple web program that allows you to input your birthday and based on the input,calculates your input and generates an Akan name for you!</p>
+    <p> <a class="name" href="https://en.wikipedia.org/wiki/Akan_names"><strong>Akan names</strong></a> are names popular in the Ghanaian culture, where the children's first names are based on a day name which corresponds to the day of the week the child was born. The names are also dependant on the child's gender.</p>
+    <p>To find out what your Akan name is, please fill in the details required below:</p>
+
+    <form class="form1" onsubmit="return getAkanName"> 
+    <label for="Year of birth">
+        Your Year of Birth:
+        <input id="Year" type="number" placeholder="YYYY"><br><br>    
+    </label>
+    <label for="Month of birth">
+        Your Month of Birth:
+        <input id="Month" type="number" placeholder="MM"><br><br>
+    </label>
+    <label for="Day of birth">
+        Your Day of Birth:
+        <input id="Day" type="number" name="day" placeholder="DD">
+    </label>
+    <br>
+    <label for="gender">
+        <p>Please Select Your Gender:</p>
+        Male
+        <input id="male" type="radio" name="gender" value="male" required>
+        Female
+        <input id="female" type="radio" name="gender" value="Female" required>
+    </label>
+    <br><br><br>
+    <input id="getName" type="submit" name="" value="Get Name">
+    <br><br>
+    </form>
+    <form onsubmit="return clearInput()">
+        <input class="clear" type="submit" value="Reset">
+    </form>
+</div>
+</div>    
+    <script src="js/project.js"></script>
+</body>
+</html>

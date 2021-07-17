@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/ghna4.jpg);
+    color:" ";
+    font-size: 17px;
+}
+h2{
+    font-size: 36px;
+    padding-top: 50px;
+  }
+  .form{
+    width: 79%;
+    margin: auto;
+  }
+  #Year{
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    box-shadow: 2px 2px #000000;
+  }
+  #Month{
+      border-radius: 20px;
+      width: 100px;
+      height: 25px;
+      box-shadow: 2px 2px #000000;
+  }
+  #Day{
+      border-radius: 20px;
+      width: 100px;
+      height: 25px;
+      box-shadow: 2px 2px #000000;
+  }
+  #getName{
+    border-radius: 5px;
+    color: #000000;
+    background-color:teal;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+  .clear{
+        border-radius: 5px;
+        color: #000000;
+        background-color:teal;
+        text-align: center;
+        border: solid 1px #000000;
+        width: 108px;
+        height: 32px;
+        font-size: 13px;
+        box-shadow: 2px 2px #000000;
+      }
+  .input{
+    background-color: rgba(1, 31, 23, 0.72);
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    border-radius: 0.5%;
+  }
+  .name{
+      color:black;
+  }
+  
